@@ -21,9 +21,9 @@ Route::get('/', function () {
     return view('welcome', ['links' => $links]);
 
 });
-// Route::get('/', function() {
-//     return view('dashboard');
-// });
+Route::get('/dashboard', function() {
+    return view('dashboard');
+});
 
 
 // testing for the first new route
